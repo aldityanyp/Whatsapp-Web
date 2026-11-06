@@ -1,0 +1,16 @@
+{
+  "id": "./",
+  "name": "WA Web for iPhone",
+  "short_name": "WA Web",
+  "description": "Akses cepat ke WhatsApp Web dari iPhone.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f7f6",
+  "theme_color": "#075e54",
+  "orientation": "portrait",
+  "icons": [
+    {"src":"icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"}
+  ]
+}

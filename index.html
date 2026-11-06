@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#075e54">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="WA Web">
+  <meta name="description" content="Akses cepat ke WhatsApp Web dari iPhone.">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="style.css">
+  <title>WA Web for iPhone</title>
+</head>
+<body>
+  <main class="app">
+    <header class="top">
+      <div class="brand"><div class="logo" aria-hidden="true">☎</div><div><h1>WA Web</h1><p>Companion for iPhone</p></div></div>
+      <button id="themeBtn" class="icon-btn" aria-label="Ganti tema">◐</button>
+    </header>
+
+    <section class="hero">
+      <div class="hero-icon" aria-hidden="true">☎</div>
+      <p class="eyebrow">WHATSAPP WEB</p>
+      <h2>Chat dari iPhone</h2>
+      <p class="sub">Buka situs resmi WhatsApp Web dengan satu sentuhan.</p>
+      <a class="primary" href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">Buka WhatsApp Web <span>↗</span></a>
+      <p class="secure">🔒 Login berlangsung langsung di situs resmi WhatsApp.</p>
+    </section>
+
+    <section class="notice">
+      <div class="notice-title"><span>ⓘ</span> Catatan kompatibilitas iPhone</div>
+      <p>WhatsApp Web dapat membatasi atau mengarahkan browser iPhone ke WhatsApp. Login QR di Safari tidak dijamin tersedia. Jika tidak bisa, gunakan aplikasi WhatsApp resmi atau buka WhatsApp Web dari komputer.</p>
+    </section>
+
+    <section class="actions">
+      <h3>Akses cepat</h3>
+      <div class="action-grid">
+        <button id="refreshBtn" class="action"><span>↻</span><b>Refresh</b><small>Muat ulang halaman ini</small></button>
+        <button id="backBtn" class="action"><span>‹</span><b>Kembali</b><small>Halaman sebelumnya</small></button>
+      </div>
+    </section>
+
+    <section class="install">
+      <h3>Pasang di Home Screen</h3>
+      <ol>
+        <li>Buka alamat aplikasi ini menggunakan <b>Safari</b>.</li>
+        <li>Tekan tombol <b>Share</b> (ikon kotak dengan panah ke atas).</li>
+        <li>Pilih <b>Add to Home Screen</b> / <b>Tambahkan ke Layar Utama</b>.</li>
+        <li>Tekan <b>Add</b>. Ikon WA Web akan muncul di Home Screen.</li>
+      </ol>
+      <p class="small">Pemasangan membutuhkan alamat HTTPS. Membuka file HTML langsung dari penyimpanan tidak cukup untuk memasang PWA.</p>
+    </section>
+
+    <footer>WA Web for iPhone · Tidak berafiliasi dengan WhatsApp atau Meta.</footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
